@@ -10,3 +10,23 @@
 /composable_app/data/book.pdf
 .idea
 composable_app/venv
+
+
+.venv/
+tmp/
+core
+
+# terraform
+terraform/.tfplan/
+terraform/.tfstate/
+terraform/.terraform/
+**/backend.hcl
+
+# AI
+.gemini/
+.claude/*.local.*
+.kiri/
+.serena/
+.playwright-mcp/
+.devcontainer/.env
+agent-tasks/

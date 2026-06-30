@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "NotebookEdit",
+      "Write",
+      "Skill",
+      "WebSearch",
+      "WebFetch",
+      "Bash",
+      "mcp__chrome-devtools__*",
+      "mcp__context7__*",
+      "mcp__next-devtools__*",
+      "mcp__playwright__*",
+      "mcp__serena__*"
+    ],
+    "deny": [],
+    "ask": [
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "chrome-devtools",
+    "playwright",
+    "context7",
+    "serena"
+  ],
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/statusline-command.sh\""
+  }
+}
