@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic[bedrock]>=0.113.0",
     "nest-asyncio>=1.6.0",
     "pydantic-ai>=2.1.0",
     "pydantic-ai-slim[bedrock]>=2.1.0",
