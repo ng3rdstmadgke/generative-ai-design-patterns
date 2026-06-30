@@ -30,3 +30,5 @@ terraform/.terraform/
 .playwright-mcp/
 .devcontainer/.env
 agent-tasks/
+
+.env

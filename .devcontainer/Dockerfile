@@ -26,7 +26,6 @@ RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
       fzf \
       groff \
       procps \
-      python3.12 \
       default-mysql-client \
       redis-tools
 
